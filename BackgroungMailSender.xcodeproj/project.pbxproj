@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0018C38F1D4A25C300532E11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018C38E1D4A25C300532E11 /* main.m */; };
+		0018C3921D4A25C300532E11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018C3911D4A25C300532E11 /* AppDelegate.m */; };
+		0018C3951D4A25C300532E11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018C3941D4A25C300532E11 /* ViewController.m */; };
+		0018C3981D4A25C300532E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0018C3961D4A25C300532E11 /* Main.storyboard */; };
+		0018C39A1D4A25C300532E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0018C3991D4A25C300532E11 /* Assets.xcassets */; };
+		0018C39D1D4A25C300532E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0018C39B1D4A25C300532E11 /* LaunchScreen.storyboard */; };
+		0018C3A81D4A25C300532E11 /* BackgroungMailSenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018C3A71D4A25C300532E11 /* BackgroungMailSenderTests.m */; };
+		0018C3B31D4A25C300532E11 /* BackgroungMailSenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018C3B21D4A25C300532E11 /* BackgroungMailSenderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0018C3A41D4A25C300532E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0018C3821D4A25C300532E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0018C3891D4A25C300532E11;
+			remoteInfo = BackgroungMailSender;
+		};
+		0018C3AF1D4A25C300532E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0018C3821D4A25C300532E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0018C3891D4A25C300532E11;
+			remoteInfo = BackgroungMailSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0018C38A1D4A25C300532E11 /* BackgroungMailSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroungMailSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0018C38E1D4A25C300532E11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0018C3901D4A25C300532E11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0018C3911D4A25C300532E11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0018C3931D4A25C300532E11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0018C3941D4A25C300532E11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0018C3971D4A25C300532E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0018C3991D4A25C300532E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0018C39C1D4A25C300532E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0018C39E1D4A25C300532E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0018C3A31D4A25C300532E11 /* BackgroungMailSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroungMailSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0018C3A71D4A25C300532E11 /* BackgroungMailSenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroungMailSenderTests.m; sourceTree = "<group>"; };
+		0018C3A91D4A25C300532E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0018C3AE1D4A25C300532E11 /* BackgroungMailSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroungMailSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0018C3B21D4A25C300532E11 /* BackgroungMailSenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroungMailSenderUITests.m; sourceTree = "<group>"; };
+		0018C3B41D4A25C300532E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0018C3871D4A25C300532E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0018C3A01D4A25C300532E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0018C3AB1D4A25C300532E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0018C3811D4A25C300532E11 = {
+			isa = PBXGroup;
+			children = (
+				0018C38C1D4A25C300532E11 /* BackgroungMailSender */,
+				0018C3A61D4A25C300532E11 /* BackgroungMailSenderTests */,
+				0018C3B11D4A25C300532E11 /* BackgroungMailSenderUITests */,
+				0018C38B1D4A25C300532E11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0018C38B1D4A25C300532E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0018C38A1D4A25C300532E11 /* BackgroungMailSender.app */,
+				0018C3A31D4A25C300532E11 /* BackgroungMailSenderTests.xctest */,
+				0018C3AE1D4A25C300532E11 /* BackgroungMailSenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0018C38C1D4A25C300532E11 /* BackgroungMailSender */ = {
+			isa = PBXGroup;
+			children = (
+				0018C3901D4A25C300532E11 /* AppDelegate.h */,
+				0018C3911D4A25C300532E11 /* AppDelegate.m */,
+				0018C3931D4A25C300532E11 /* ViewController.h */,
+				0018C3941D4A25C300532E11 /* ViewController.m */,
+				0018C3961D4A25C300532E11 /* Main.storyboard */,
+				0018C3991D4A25C300532E11 /* Assets.xcassets */,
+				0018C39B1D4A25C300532E11 /* LaunchScreen.storyboard */,
+				0018C39E1D4A25C300532E11 /* Info.plist */,
+				0018C38D1D4A25C300532E11 /* Supporting Files */,
+			);
+			path = BackgroungMailSender;
+			sourceTree = "<group>";
+		};
+		0018C38D1D4A25C300532E11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0018C38E1D4A25C300532E11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0018C3A61D4A25C300532E11 /* BackgroungMailSenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0018C3A71D4A25C300532E11 /* BackgroungMailSenderTests.m */,
+				0018C3A91D4A25C300532E11 /* Info.plist */,
+			);
+			path = BackgroungMailSenderTests;
+			sourceTree = "<group>";
+		};
+		0018C3B11D4A25C300532E11 /* BackgroungMailSenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0018C3B21D4A25C300532E11 /* BackgroungMailSenderUITests.m */,
+				0018C3B41D4A25C300532E11 /* Info.plist */,
+			);
+			path = BackgroungMailSenderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0018C3891D4A25C300532E11 /* BackgroungMailSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0018C3B71D4A25C300532E11 /* Build configuration list for PBXNativeTarget "BackgroungMailSender" */;
+			buildPhases = (
+				0018C3861D4A25C300532E11 /* Sources */,
+				0018C3871D4A25C300532E11 /* Frameworks */,
+				0018C3881D4A25C300532E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroungMailSender;
+			productName = BackgroungMailSender;
+			productReference = 0018C38A1D4A25C300532E11 /* BackgroungMailSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0018C3A21D4A25C300532E11 /* BackgroungMailSenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0018C3BA1D4A25C300532E11 /* Build configuration list for PBXNativeTarget "BackgroungMailSenderTests" */;
+			buildPhases = (
+				0018C39F1D4A25C300532E11 /* Sources */,
+				0018C3A01D4A25C300532E11 /* Frameworks */,
+				0018C3A11D4A25C300532E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0018C3A51D4A25C300532E11 /* PBXTargetDependency */,
+			);
+			name = BackgroungMailSenderTests;
+			productName = BackgroungMailSenderTests;
+			productReference = 0018C3A31D4A25C300532E11 /* BackgroungMailSenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0018C3AD1D4A25C300532E11 /* BackgroungMailSenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0018C3BD1D4A25C300532E11 /* Build configuration list for PBXNativeTarget "BackgroungMailSenderUITests" */;
+			buildPhases = (
+				0018C3AA1D4A25C300532E11 /* Sources */,
+				0018C3AB1D4A25C300532E11 /* Frameworks */,
+				0018C3AC1D4A25C300532E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0018C3B01D4A25C300532E11 /* PBXTargetDependency */,
+			);
+			name = BackgroungMailSenderUITests;
+			productName = BackgroungMailSenderUITests;
+			productReference = 0018C3AE1D4A25C300532E11 /* BackgroungMailSenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0018C3821D4A25C300532E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = VividInfotech;
+				TargetAttributes = {
+					0018C3891D4A25C300532E11 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0018C3A21D4A25C300532E11 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0018C3891D4A25C300532E11;
+					};
+					0018C3AD1D4A25C300532E11 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0018C3891D4A25C300532E11;
+					};
+				};
+			};
+			buildConfigurationList = 0018C3851D4A25C300532E11 /* Build configuration list for PBXProject "BackgroungMailSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0018C3811D4A25C300532E11;
+			productRefGroup = 0018C38B1D4A25C300532E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0018C3891D4A25C300532E11 /* BackgroungMailSender */,
+				0018C3A21D4A25C300532E11 /* BackgroungMailSenderTests */,
+				0018C3AD1D4A25C300532E11 /* BackgroungMailSenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0018C3881D4A25C300532E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0018C39D1D4A25C300532E11 /* LaunchScreen.storyboard in Resources */,
+				0018C39A1D4A25C300532E11 /* Assets.xcassets in Resources */,
+				0018C3981D4A25C300532E11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0018C3A11D4A25C300532E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0018C3AC1D4A25C300532E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0018C3861D4A25C300532E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0018C3951D4A25C300532E11 /* ViewController.m in Sources */,
+				0018C3921D4A25C300532E11 /* AppDelegate.m in Sources */,
+				0018C38F1D4A25C300532E11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0018C39F1D4A25C300532E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0018C3A81D4A25C300532E11 /* BackgroungMailSenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0018C3AA1D4A25C300532E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0018C3B31D4A25C300532E11 /* BackgroungMailSenderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0018C3A51D4A25C300532E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0018C3891D4A25C300532E11 /* BackgroungMailSender */;
+			targetProxy = 0018C3A41D4A25C300532E11 /* PBXContainerItemProxy */;
+		};
+		0018C3B01D4A25C300532E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0018C3891D4A25C300532E11 /* BackgroungMailSender */;
+			targetProxy = 0018C3AF1D4A25C300532E11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0018C3961D4A25C300532E11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0018C3971D4A25C300532E11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0018C39B1D4A25C300532E11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0018C39C1D4A25C300532E11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0018C3B51D4A25C300532E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0018C3B61D4A25C300532E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0018C3B81D4A25C300532E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackgroungMailSender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.BackgroungMailSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0018C3B91D4A25C300532E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackgroungMailSender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.BackgroungMailSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0018C3BB1D4A25C300532E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BackgroungMailSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.BackgroungMailSenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroungMailSender.app/BackgroungMailSender";
+			};
+			name = Debug;
+		};
+		0018C3BC1D4A25C300532E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BackgroungMailSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.BackgroungMailSenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroungMailSender.app/BackgroungMailSender";
+			};
+			name = Release;
+		};
+		0018C3BE1D4A25C300532E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BackgroungMailSenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.BackgroungMailSenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BackgroungMailSender;
+			};
+			name = Debug;
+		};
+		0018C3BF1D4A25C300532E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BackgroungMailSenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.BackgroungMailSenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BackgroungMailSender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0018C3851D4A25C300532E11 /* Build configuration list for PBXProject "BackgroungMailSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0018C3B51D4A25C300532E11 /* Debug */,
+				0018C3B61D4A25C300532E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0018C3B71D4A25C300532E11 /* Build configuration list for PBXNativeTarget "BackgroungMailSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0018C3B81D4A25C300532E11 /* Debug */,
+				0018C3B91D4A25C300532E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0018C3BA1D4A25C300532E11 /* Build configuration list for PBXNativeTarget "BackgroungMailSenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0018C3BB1D4A25C300532E11 /* Debug */,
+				0018C3BC1D4A25C300532E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0018C3BD1D4A25C300532E11 /* Build configuration list for PBXNativeTarget "BackgroungMailSenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0018C3BE1D4A25C300532E11 /* Debug */,
+				0018C3BF1D4A25C300532E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0018C3821D4A25C300532E11 /* Project object */;
+}
