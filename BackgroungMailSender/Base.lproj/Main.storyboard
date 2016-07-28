@@ -1,25 +1,100 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EIh-7k-aQ6">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Background Mail Sender-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOU-ai-HsA">
+                                <rect key="frame" x="66" y="340" width="189" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Send a background mail">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedSend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SdI-oU-sxT"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sender Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Is2-Kv-s0Q">
+                                <rect key="frame" x="8" y="160" width="303" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sender Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="srk-aK-azb">
+                                <rect key="frame" x="8" y="214" width="303" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Receiver Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0yb-tm-Lw2">
+                                <rect key="frame" x="8" y="273" width="303" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43398199800689646" green="0.73725490199999999" blue="0.94703663793103443" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0yb-tm-Lw2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="4" id="1jr-ut-YOd"/>
+                            <constraint firstItem="Is2-Kv-s0Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="1qX-Mj-0u5"/>
+                            <constraint firstItem="EOU-ai-HsA" firstAttribute="top" secondItem="0yb-tm-Lw2" secondAttribute="bottom" constant="37" id="MTO-SQ-MMk"/>
+                            <constraint firstItem="srk-aK-azb" firstAttribute="leading" secondItem="0yb-tm-Lw2" secondAttribute="leading" id="RDM-lV-WVZ"/>
+                            <constraint firstItem="Is2-Kv-s0Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T8Y-2j-Z95"/>
+                            <constraint firstItem="0yb-tm-Lw2" firstAttribute="top" secondItem="srk-aK-azb" secondAttribute="bottom" constant="29" id="Uac-Ev-9dM"/>
+                            <constraint firstItem="Is2-Kv-s0Q" firstAttribute="trailing" secondItem="srk-aK-azb" secondAttribute="trailing" id="Wrb-gt-6nw"/>
+                            <constraint firstItem="EOU-ai-HsA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XW8-jA-Zke"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EOU-ai-HsA" secondAttribute="trailing" constant="49" id="Ybi-QP-nku"/>
+                            <constraint firstItem="EOU-ai-HsA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="bVg-z5-gyH"/>
+                            <constraint firstItem="srk-aK-azb" firstAttribute="trailing" secondItem="0yb-tm-Lw2" secondAttribute="trailing" id="cep-vn-oDa"/>
+                            <constraint firstItem="srk-aK-azb" firstAttribute="top" secondItem="Is2-Kv-s0Q" secondAttribute="bottom" constant="24" id="esP-OO-Psu"/>
+                            <constraint firstItem="Is2-Kv-s0Q" firstAttribute="leading" secondItem="srk-aK-azb" secondAttribute="leading" id="ri4-ul-aiG"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Background Mail Sender" id="dqY-qM-Vnz"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="txtReceiverMail" destination="0yb-tm-Lw2" id="8pc-eu-bAT"/>
+                        <outlet property="txtSenderMail" destination="Is2-Kv-s0Q" id="NXV-dY-syd"/>
+                        <outlet property="txtSenderPassword" destination="srk-aK-azb" id="PLL-bc-pJA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="984" y="339"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MvX-dF-KBU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EIh-7k-aQ6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8NX-X2-n2D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.30430826459301208" green="0.5186409965632498" blue="0.66694617146596857" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZNj-0V-RPs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OUM-Ne-3X8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="631" y="339"/>
         </scene>
     </scenes>
 </document>
