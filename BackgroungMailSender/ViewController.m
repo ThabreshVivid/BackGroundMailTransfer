@@ -38,10 +38,10 @@
     emailMessage.requiresAuth = YES;
     emailMessage.login = self.txtSenderMail.text; //sender email address
     emailMessage.pass = self.txtSenderPassword.text; //sender email password
-    emailMessage.subject =@"This is for subject";
+    emailMessage.subject =@"This is for subject...sender by Thabresh";
     emailMessage.wantsSecure = YES;
     emailMessage.delegate = self; // you must include <SKPSMTPMessageDelegate> to your class
-    NSString *messageBody = @"This is for message body";
+    NSString *messageBody = @"This is for message body...sender by Thabresh";
     //for example :   NSString *messageBody = [NSString stringWithFormat:@"Tour Name: %@\nName: %@\nEmail: %@\nContact No: %@\nAddress: %@\nNote: %@",selectedTour,nameField.text,emailField.text,foneField.text,addField.text,txtView.text];
     // Now creating plain text email message
     NSDictionary *plainMsg = [NSDictionary
