@@ -1,0 +1,18 @@
+PODS:
+  - IQKeyboardManager (3.3.7)
+  - skpsmtpmessage (0.0.1)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - skpsmtpmessage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  skpsmtpmessage: f6e913380c784dd8d4a9f83c8790a302445a5e05
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 5176a90814f553c4e83222aaf0aa852405ca2490
+
+COCOAPODS: 1.0.0
